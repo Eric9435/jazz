@@ -301,3 +301,17 @@
 	at d0.getPullRequestsForQuery (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:4138:39535)
 	at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
 	at async /home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:4138:42088
+2026-05-11 21:17:30.704 [error] Error: file:///workspaces/jazz/jazz-language-atlas has no GitHub remotes
+	at r0.getOrigin (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:3895:4232)
+	at r0.getPullRequestDefaults (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:3895:3019)
+	at pu (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:3769:13437)
+	at d0.getPullRequestsForQuery (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:4138:39535)
+	at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+	at async /home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:4138:42088
+2026-05-11 21:21:27.542 [error] Error: file:///workspaces/jazz/jazz-language-atlas has no GitHub remotes
+	at r0.getOrigin (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:3895:4232)
+	at r0.getPullRequestDefaults (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:3895:3019)
+	at pu (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:3769:13437)
+	at d0.getPullRequestsForQuery (/home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:4138:39535)
+	at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+	at async /home/codespace/.vscode-remote/extensions/github.vscode-pull-request-github-0.142.0/dist/extension.js:4138:42088
