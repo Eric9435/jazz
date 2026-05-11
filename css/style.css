@@ -1656,3 +1656,86 @@ body.dark-mode .sidebar {
 .markdown-content p {
   line-height: 1.9;
 }
+
+/* ========================================
+   NETLIFY MOBILE LAYOUT FIX
+======================================== */
+
+@media (max-width: 900px) {
+  .section {
+    padding: 1.25rem !important;
+  }
+
+  .app-layout {
+    display: block !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .sidebar {
+    position: relative !important;
+    top: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    max-height: 240px !important;
+    margin-bottom: 2rem !important;
+    overflow-y: auto !important;
+  }
+
+  #sidebarNav {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: .25rem !important;
+  }
+
+  .sidebar-link {
+    text-align: center !important;
+    font-size: .9rem !important;
+    padding: .55rem !important;
+  }
+
+  .main-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  #topicGrid.grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    width: 100% !important;
+  }
+
+  #topicGrid .card {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: auto !important;
+  }
+
+  #domainTitle,
+  #topicTitle,
+  .page-header h1 {
+    font-size: clamp(2.2rem, 11vw, 4rem) !important;
+    overflow-wrap: break-word !important;
+  }
+
+  .toolbar {
+    width: 100% !important;
+  }
+
+  input[type="search"] {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 901px) {
+  .app-layout {
+    grid-template-columns: 260px minmax(0, 1fr) !important;
+  }
+
+  #topicGrid.grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  }
+}
+
