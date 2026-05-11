@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Jazz Language Atlas is a complete jazz harmony, improvisation, rhythm, voicing, and practice knowledge platform." />
+<meta name="theme-color" content="#1f3a5f" />
+<meta property="og:title" content="Jazz Language Atlas" />
+<meta property="og:description" content="Jazz Language Atlas is a complete jazz harmony, improvisation, rhythm, voicing, and practice knowledge platform." />
+<meta property="og:type" content="website" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tools | Jazz Language Atlas</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+
+<nav class="topnav">
+  <a class="brand" href="index.html">Jazz Language Atlas</a>
+  <a href="domains.html">Domains</a>
+  <a href="search.html">Search</a>
+  <a href="practice.html">Practice</a>
+  <a href="artists.html">Artists</a>
+  <a href="listening.html">Listening</a>
+  <a href="tools.html">Tools</a>
+  <a href="quality.html">Quality</a>
+  <button id="themeToggle" class="theme-toggle">Dark</button>
+</nav>
+
+<main class="section">
+
+  <header class="page-header">
+    <p class="eyebrow">Interactive Tools</p>
+    <h1>Jazz Practice Tools</h1>
+    <p class="lead">
+      Generate keys, ii-V-I progressions, chord-scale suggestions, target tones, and quick quiz prompts.
+    </p>
+  </header>
+
+  <section class="lesson-grid">
+
+    <div class="info-box">
+      <h3>Random Key</h3>
+      <p id="randomKeyOutput">Click generate.</p>
+      <button class="button small" id="randomKeyBtn">Generate Key</button>
+    </div>
+
+    <div class="info-box">
+      <h3>ii-V-I Generator</h3>
+      <p id="twoFiveOutput">Click generate.</p>
+      <button class="button small" id="twoFiveBtn">Generate ii-V-I</button>
+    </div>
+
+    <div class="info-box">
+      <h3>Target Tone</h3>
+      <p id="targetToneOutput">Click generate.</p>
+      <button class="button small" id="targetToneBtn">Generate Target Tone</button>
+    </div>
+
+  </section>
+
+  <section class="lesson-section">
+    <h2>Chord Scale Finder</h2>
+
+    <div class="toolbar">
+      <input id="chordInput" type="search" placeholder="Type chord quality: maj7, m7, 7, m7b5, dim7, 7alt, 7sus" />
+      <button class="button small" id="findChordBtn">Find</button>
+    </div>
+
+    <div id="chordResult" class="grid"></div>
+  </section>
+
+  <section class="lesson-section">
+    <h2>Quick Quiz</h2>
+
+    <p id="quizQuestion" class="lead">Click start quiz.</p>
+
+    <div class="toolbar">
+      <input id="quizAnswer" type="search" placeholder="Type your answer..." />
+      <button class="button small" id="startQuizBtn">Start</button>
+      <button class="button small" id="checkQuizBtn">Check</button>
+    </div>
+
+    <p id="quizFeedback"></p>
+    <p id="quizScore"></p>
+  </section>
+
+</main>
+
+<script type="module" src="js/tools-page.js"></script>
+
+<script type="module" src="js/theme-toggle.js"></script>
+</body>
+</html>

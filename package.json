@@ -1,0 +1,21 @@
+{
+  "name": "jazz-language-atlas",
+  "version": "1.0.0",
+  "description": "Complete Jazz Language Teaching Website",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 5500",
+    "serve": "python3 -m http.server 5500",
+    "build:index": "node tools/build-topic-index.js",
+    "fill:topics": "node tools/fill-empty-topics.js",
+    "setup": "npm run fill:topics && npm run build:index",
+    "qc:placeholders": "node tools/find-placeholders.js",
+    "qc:count": "node tools/topic-report.js",
+    "qc:duplicates": "node tools/check-duplicates.js",
+    "qc": "npm run build:index && npm run qc:count && npm run qc:placeholders && npm run qc:duplicates",
+    "check:links": "node tools/check-links.js"
+  },
+  "dependencies": {
+    "marked": "^18.0.3"
+  }
+}

@@ -1,0 +1,1658 @@
+:root {
+
+  /* =========================
+     COLORS
+  ========================== */
+
+  --bg: #f8f6f1;
+  --bg-soft: #f2efe8;
+
+  --card: #ffffff;
+
+  --text: #111827;
+
+  --muted: #5f6b7a;
+
+  --navy: #1f3a5f;
+  --navy-light: #2d4b73;
+
+  --gold: #d4a24c;
+
+  --border: #e5e7eb;
+
+  --shadow:
+    0 10px 30px rgba(0,0,0,.06);
+
+  --radius: 24px;
+}
+
+/* =========================
+   RESET
+========================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+
+  margin: 0;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(212,162,76,.08),
+      transparent 25%
+    ),
+
+    radial-gradient(
+      circle at left,
+      rgba(31,58,95,.05),
+      transparent 30%
+    ),
+
+    var(--bg);
+
+  color: var(--text);
+
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  line-height: 1.7;
+}
+
+/* =========================
+   TYPOGRAPHY
+========================== */
+
+h1,h2,h3,h4 {
+
+  letter-spacing: -.03em;
+  line-height: 1.05;
+  margin-top: 0;
+
+  color: var(--navy);
+}
+
+h1 {
+
+  font-size:
+    clamp(3rem, 7vw, 6rem);
+
+  font-weight: 900;
+}
+
+h2 {
+
+  font-size:
+    clamp(1.8rem, 4vw, 3rem);
+
+  font-weight: 800;
+}
+
+h3 {
+
+  font-size: 1.2rem;
+}
+
+p {
+
+  color: var(--muted);
+}
+
+a {
+
+  color: var(--navy);
+  text-decoration: none;
+}
+
+a:hover {
+
+  opacity: .8;
+}
+
+/* =========================
+   NAVBAR
+========================== */
+
+.topnav,
+nav {
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 100;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 1.2rem;
+
+  padding: 1rem 2rem;
+
+  background:
+    rgba(248,246,241,.82);
+
+  backdrop-filter: blur(18px);
+
+  border-bottom:
+    1px solid var(--border);
+}
+
+.brand {
+
+  margin-right: auto;
+
+  font-weight: 900;
+
+  color: var(--navy);
+
+  letter-spacing: -.03em;
+}
+
+/* =========================
+   HERO
+========================== */
+
+.hero {
+
+  min-height: 85vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.hero section {
+
+  max-width: 1100px;
+
+  padding:
+    7rem 2rem;
+}
+
+.hero h2 {
+
+  max-width: 950px;
+
+  margin-bottom: 1.5rem;
+}
+
+.hero p {
+
+  max-width: 760px;
+
+  font-size: 1.2rem;
+}
+
+/* =========================
+   BUTTONS
+========================== */
+
+.button {
+
+  display: inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: .5rem;
+
+  margin-top: 1rem;
+
+  padding:
+    .95rem 1.3rem;
+
+  border-radius: 999px;
+
+  background: var(--navy);
+
+  color: white !important;
+
+  font-weight: 800;
+
+  transition: .2s ease;
+}
+
+.button:hover {
+
+  background: var(--navy-light);
+
+  transform: translateY(-2px);
+}
+
+.button.small {
+
+  padding:
+    .65rem 1rem;
+
+  font-size: .9rem;
+}
+
+/* =========================
+   LAYOUT
+========================== */
+
+.section {
+
+  width:
+    min(1280px, 100%);
+
+  margin: auto;
+
+  padding:
+    4rem 2rem;
+}
+
+.page-header {
+
+  margin-bottom: 2rem;
+}
+
+.lead {
+
+  max-width: 780px;
+
+  font-size: 1.15rem;
+}
+
+.eyebrow {
+
+  color: var(--gold);
+
+  text-transform: uppercase;
+
+  letter-spacing: .12em;
+
+  font-size: .78rem;
+
+  font-weight: 900;
+}
+
+/* =========================
+   GRID
+========================== */
+
+.grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(260px,1fr));
+
+  gap: 1.2rem;
+}
+
+/* =========================
+   CARD
+========================== */
+
+.card {
+
+  background: var(--card);
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    var(--radius);
+
+  padding: 1.5rem;
+
+  box-shadow:
+    var(--shadow);
+
+  transition: .25s ease;
+}
+
+.card:hover {
+
+  transform:
+    translateY(-4px);
+
+  box-shadow:
+    0 16px 40px rgba(31,58,95,.10);
+}
+
+.card h2 {
+
+  margin:
+    .6rem 0;
+}
+
+.tag,
+.number {
+
+  display: inline-flex;
+
+  color: var(--gold);
+
+  font-size: .78rem;
+
+  font-weight: 900;
+
+  text-transform: uppercase;
+
+  letter-spacing: .08em;
+}
+
+/* =========================
+   TOOLBAR
+========================== */
+
+.toolbar {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 1rem;
+
+  margin:
+    1.5rem 0 2rem;
+}
+
+input[type="search"] {
+
+  width:
+    min(680px, 100%);
+
+  padding:
+    1rem 1.1rem;
+
+  border-radius:
+    999px;
+
+  border:
+    1px solid var(--border);
+
+  background: white;
+
+  color: var(--text);
+
+  font-size: 1rem;
+
+  outline: none;
+}
+
+input[type="search"]:focus {
+
+  border-color:
+    rgba(31,58,95,.35);
+
+  box-shadow:
+    0 0 0 4px rgba(31,58,95,.08);
+}
+
+/* =========================
+   LESSON PAGE
+========================== */
+
+.lesson {
+
+  max-width: 1000px;
+}
+
+.lesson-section {
+
+  margin:
+    2rem 0;
+
+  padding:
+    1.8rem;
+
+  background: white;
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    var(--radius);
+
+  box-shadow:
+    var(--shadow);
+}
+
+.lesson-section h2 {
+
+  color: var(--navy);
+}
+
+.lesson-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit,minmax(240px,1fr));
+
+  gap: 1rem;
+
+  margin:
+    2rem 0;
+}
+
+.info-box {
+
+  padding:
+    1.3rem;
+
+  background:
+    var(--bg-soft);
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    20px;
+}
+
+.info-box h3 {
+
+  color:
+    var(--navy);
+}
+
+/* =========================
+   LISTS
+========================== */
+
+ul {
+
+  padding-left:
+    1.2rem;
+}
+
+li {
+
+  margin:
+    .45rem 0;
+
+  color:
+    var(--muted);
+}
+
+/* =========================
+   BACK LINK
+========================== */
+
+.backlink {
+
+  display: inline-block;
+
+  margin-bottom: 1rem;
+
+  color:
+    var(--muted);
+}
+
+/* =========================
+   RESPONSIVE
+========================== */
+
+@media (max-width: 720px) {
+
+  .topnav,
+  nav {
+
+    flex-wrap: wrap;
+
+    padding:
+      1rem;
+  }
+
+  .section {
+
+    padding:
+      2rem 1rem;
+  }
+
+  .toolbar {
+
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+
+  .hero section {
+
+    padding:
+      5rem 1rem;
+  }
+}
+
+/* ========================================
+   SIDEBAR
+======================================== */
+
+.sidebar {
+
+  position: sticky;
+
+  top: 90px;
+
+  padding: 1rem;
+
+  background: white;
+
+  border:
+    1px solid var(--border);
+
+  border-radius: 20px;
+
+  box-shadow:
+    var(--shadow);
+}
+
+.sidebar-link {
+
+  display: block;
+
+  padding:
+    .5rem 0;
+
+  color:
+    var(--muted);
+}
+
+.sidebar-link:hover {
+
+  color:
+    var(--navy);
+}
+
+/* ========================================
+   PIANO
+======================================== */
+
+.piano {
+
+  display: flex;
+
+  gap: .5rem;
+}
+
+.piano-key {
+
+  width: 60px;
+  height: 180px;
+
+  background: white;
+
+  border:
+    1px solid #ccc;
+
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: center;
+
+  padding-bottom: 1rem;
+}
+
+/* ========================================
+   APP LAYOUT
+======================================== */
+
+.app-layout {
+
+  display: grid;
+
+  grid-template-columns:
+    300px 1fr;
+
+  gap: 2rem;
+}
+
+.main-content {
+
+  min-width: 0;
+}
+
+/* ========================================
+   SIDEBAR
+======================================== */
+
+.sidebar {
+
+  position: sticky;
+
+  top: 100px;
+
+  height: fit-content;
+
+  background: white;
+
+  border:
+    1px solid var(--border);
+
+  border-radius: 24px;
+
+  padding: 1.2rem;
+
+  box-shadow:
+    var(--shadow);
+}
+
+.sidebar h2 {
+
+  margin-bottom: 1rem;
+}
+
+.sidebar-link {
+
+  display: block;
+
+  padding:
+    .7rem .8rem;
+
+  border-radius: 12px;
+
+  color:
+    var(--muted);
+
+  transition: .15s ease;
+}
+
+.sidebar-link:hover {
+
+  background:
+    var(--bg-soft);
+
+  color:
+    var(--navy);
+}
+
+/* ========================================
+   TOPIC HERO
+======================================== */
+
+.topic-hero {
+
+  margin-bottom: 2rem;
+}
+
+.topic-meta {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: .6rem;
+
+  margin-top: 1rem;
+}
+
+.topic-tag {
+
+  padding:
+    .45rem .8rem;
+
+  background:
+    rgba(31,58,95,.08);
+
+  border-radius:
+    999px;
+
+  color:
+    var(--navy);
+
+  font-size:
+    .82rem;
+
+  font-weight:
+    700;
+}
+
+/* ========================================
+   RELATED TOPICS
+======================================== */
+
+.related-grid {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+  gap: 1rem;
+}
+
+/* ========================================
+   AUDIO BUTTON
+======================================== */
+
+.audio-button {
+
+  border: none;
+
+  background:
+    var(--navy);
+
+  color: white;
+
+  padding:
+    .8rem 1rem;
+
+  border-radius:
+    999px;
+
+  cursor: pointer;
+
+  font-weight: 700;
+}
+
+/* ========================================
+   PIANO
+======================================== */
+
+.piano {
+
+  display: flex;
+
+  gap: .4rem;
+
+  margin-top: 1rem;
+}
+
+.piano-key {
+
+  width: 58px;
+  height: 180px;
+
+  background: white;
+
+  border:
+    1px solid #d1d5db;
+
+  border-radius:
+    0 0 8px 8px;
+
+  display: flex;
+
+  align-items: flex-end;
+
+  justify-content: center;
+
+  padding-bottom: .8rem;
+
+  font-size: .85rem;
+
+  color: var(--muted);
+}
+
+/* ========================================
+   KNOWLEDGE GRAPH
+======================================== */
+
+.graph-box {
+
+  padding:
+    1.5rem;
+
+  border:
+    1px solid var(--border);
+
+  border-radius:
+    24px;
+
+  background:
+    white;
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 980px){
+
+  .app-layout {
+
+    grid-template-columns:
+      1fr;
+  }
+
+  .sidebar {
+
+    position: relative;
+
+    top: 0;
+  }
+
+}
+
+/* ========================================
+   FIX TOPIC PAGE TYPOGRAPHY
+======================================== */
+
+.lesson {
+
+  max-width: 900px;
+
+  margin: auto;
+}
+
+.topic-hero h1 {
+
+  font-size:
+    clamp(2.5rem, 5vw, 4.8rem);
+
+  line-height: .92;
+
+  letter-spacing: -.05em;
+
+  max-width: 850px;
+
+  word-break: break-word;
+}
+
+/* ========================================
+   FIX APP LAYOUT
+======================================== */
+
+.app-layout {
+
+  display: grid;
+
+  grid-template-columns:
+    240px 1fr;
+
+  gap: 2rem;
+
+  align-items: start;
+}
+
+/* ========================================
+   FIX SIDEBAR
+======================================== */
+
+.sidebar {
+
+  width: 100%;
+
+  max-width: 240px;
+}
+
+/* ========================================
+   FIX TOPIC META TAGS
+======================================== */
+
+.topic-meta {
+
+  margin-top: 1.2rem;
+
+  gap: .5rem;
+}
+
+.topic-tag {
+
+  font-size: .72rem;
+
+  padding:
+    .38rem .7rem;
+}
+
+/* ========================================
+   FIX LESSON SPACING
+======================================== */
+
+.lesson-section {
+
+  margin:
+    1.5rem 0;
+}
+
+/* ========================================
+   FIX LONG TEXT
+======================================== */
+
+.lesson p {
+
+  max-width: 75ch;
+}
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 980px){
+
+  .app-layout {
+
+    grid-template-columns:
+      1fr;
+  }
+
+  .sidebar {
+
+    max-width: 100%;
+  }
+
+  .topic-hero h1 {
+
+    font-size:
+      clamp(2.2rem, 9vw, 4rem);
+  }
+
+}
+
+/* ========================================
+   EMERGENCY TOPIC PAGE FIX
+======================================== */
+
+.topic-layout,
+.app-layout {
+  grid-template-columns: 220px minmax(0, 1fr) !important;
+  max-width: 1180px !important;
+}
+
+.lesson,
+.main-content {
+  max-width: 820px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.lesson h1,
+.topic-hero h1,
+#topicTitle {
+  font-size: clamp(2rem, 4vw, 3.6rem) !important;
+  line-height: 1 !important;
+  letter-spacing: -0.04em !important;
+  max-width: 760px !important;
+  overflow-wrap: break-word !important;
+  word-break: normal !important;
+  margin-bottom: 1rem !important;
+}
+
+.lesson .lead,
+#shortDefinition {
+  font-size: 1.05rem !important;
+  max-width: 680px !important;
+}
+
+.lesson-section {
+  padding: 1.3rem !important;
+  margin: 1.2rem 0 !important;
+}
+
+.sidebar {
+  max-width: 220px !important;
+  padding: 1rem !important;
+}
+
+.sidebar h2 {
+  font-size: 1.3rem !important;
+}
+
+.sidebar-link {
+  font-size: .92rem !important;
+  padding: .45rem .55rem !important;
+}
+
+.topic-meta {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  max-width: 680px !important;
+}
+
+.topic-tag {
+  font-size: .7rem !important;
+  padding: .3rem .6rem !important;
+}
+
+@media (max-width: 900px) {
+  .topic-layout,
+  .app-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  .sidebar {
+    max-width: 100% !important;
+    position: relative !important;
+    top: 0 !important;
+  }
+
+  .lesson h1,
+  .topic-hero h1,
+  #topicTitle {
+    font-size: clamp(1.9rem, 9vw, 3rem) !important;
+  }
+}
+
+/* ========================================
+   GLOBAL OVERFLOW FIX
+======================================== */
+
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+* {
+  min-width: 0;
+}
+
+/* Long headings never escape */
+h1,
+h2,
+h3,
+.card h2,
+.page-header h1,
+.topic-hero h1,
+#domainTitle,
+#topicTitle {
+  overflow-wrap: anywhere !important;
+  word-break: break-word !important;
+  hyphens: auto !important;
+}
+
+/* Cards must not overflow */
+.card {
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Grid items must shrink correctly */
+.grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)) !important;
+}
+
+/* Navbar wrap fix */
+.topnav,
+nav {
+  flex-wrap: wrap !important;
+  overflow: hidden !important;
+}
+
+.topnav a,
+nav a {
+  white-space: normal !important;
+}
+
+/* Page layout safety */
+.section,
+.main-content,
+.lesson,
+.page-header {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Domain / topic title size safety */
+#domainTitle,
+#topicTitle {
+  font-size: clamp(2rem, 5vw, 4.2rem) !important;
+  line-height: 1 !important;
+}
+
+/* Mobile / narrow screen */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  #domainTitle,
+  #topicTitle {
+    font-size: clamp(1.8rem, 9vw, 3rem) !important;
+  }
+}
+
+/* ========================================
+   HORIZONTAL DOMAIN SCROLL
+======================================== */
+
+.domain-scroll {
+
+  display: flex !important;
+
+  gap: 1rem;
+
+  overflow-x: auto;
+
+  overflow-y: hidden;
+
+  padding-bottom: 1rem;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: thin;
+}
+
+.domain-scroll::-webkit-scrollbar {
+
+  height: 10px;
+}
+
+.domain-scroll::-webkit-scrollbar-thumb {
+
+  background: rgba(31,58,95,.25);
+
+  border-radius: 999px;
+}
+
+.domain-scroll .card {
+
+  min-width: 280px;
+
+  flex-shrink: 0;
+}
+
+
+/* ========================================
+   LEFT SIDEBAR VERTICAL SCROLL FIX
+======================================== */
+
+.sidebar {
+  max-height: calc(100vh - 130px) !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  overscroll-behavior: contain !important;
+  scrollbar-width: thin !important;
+  scrollbar-color: rgba(31,58,95,.35) transparent !important;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(31,58,95,.28);
+  border-radius: 999px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(31,58,95,.45);
+}
+
+#sidebarNav {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: .25rem !important;
+  max-height: none !important;
+}
+
+.sidebar-link {
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+/* ========================================
+   DOMAIN TOPIC CARD READABILITY FIX
+======================================== */
+
+.app-layout {
+  grid-template-columns: 230px minmax(0, 1fr) !important;
+  gap: 2.5rem !important;
+}
+
+#topicGrid.grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important;
+  align-items: stretch !important;
+}
+
+#topicGrid .card {
+  min-height: 230px !important;
+  padding: 1.6rem !important;
+}
+
+#topicGrid .card h2 {
+  font-size: clamp(1.55rem, 2vw, 2.25rem) !important;
+  line-height: 1.05 !important;
+  letter-spacing: -0.04em !important;
+  max-width: 100% !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+  hyphens: none !important;
+}
+
+#topicGrid .card p {
+  font-size: .95rem !important;
+  max-width: 28ch !important;
+}
+
+#topicGrid .button.small {
+  font-size: .85rem !important;
+  padding: .55rem .85rem !important;
+}
+
+@media (min-width: 1200px) {
+  #topicGrid.grid {
+    grid-template-columns: repeat(3, minmax(280px, 1fr)) !important;
+  }
+}
+
+@media (min-width: 1500px) {
+  #topicGrid.grid {
+    grid-template-columns: repeat(4, minmax(280px, 1fr)) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  #topicGrid.grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ========================================
+   FINAL GRID OVERFLOW FIX
+======================================== */
+
+.main-content {
+  width: 100% !important;
+  min-width: 0 !important;
+  overflow-x: hidden !important;
+}
+
+#topicGrid {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+#topicGrid.grid {
+
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(260px, 1fr)) !important;
+
+  gap: 1.5rem !important;
+
+  width: 100% !important;
+}
+
+#topicGrid .card {
+
+  width: 100% !important;
+
+  max-width: 100% !important;
+
+  box-sizing: border-box !important;
+}
+
+/* Prevent page stretching */
+
+.app-layout {
+
+  width: 100% !important;
+
+  max-width: 1400px !important;
+
+  margin: 0 auto !important;
+
+  overflow-x: hidden !important;
+}
+
+/* Safety */
+
+body {
+
+  overflow-x: hidden !important;
+}
+
+/* Large screens */
+
+@media (min-width: 1400px){
+
+  #topicGrid.grid {
+
+    grid-template-columns:
+      repeat(3, minmax(280px, 1fr)) !important;
+  }
+
+}
+
+/* Medium */
+
+@media (max-width: 1200px){
+
+  #topicGrid.grid {
+
+    grid-template-columns:
+      repeat(2, minmax(260px, 1fr)) !important;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width: 700px){
+
+  #topicGrid.grid {
+
+    grid-template-columns:
+      1fr !important;
+  }
+
+}
+
+/* ========================================
+   REAL AUDIO SYSTEM
+======================================== */
+
+.audio-grid {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 1rem;
+}
+
+.audio-button {
+
+  border: none;
+
+  background:
+    linear-gradient(
+      135deg,
+      #183b73,
+      #2450a6
+    );
+
+  color: white;
+
+  padding:
+    .85rem 1.2rem;
+
+  border-radius:
+    999px;
+
+  cursor: pointer;
+
+  font-weight: 700;
+
+  font-size: .92rem;
+
+  transition:
+    transform .15s ease,
+    opacity .15s ease;
+}
+
+.audio-button:hover {
+
+  transform:
+    translateY(-2px);
+
+  opacity: .92;
+}
+
+.audio-button:active {
+
+  transform:
+    scale(.96);
+}
+
+
+/* ========================================
+   TOOL PAGE POLISH
+======================================== */
+
+.info-box .button {
+  margin-top: .75rem;
+}
+
+#randomKeyOutput,
+#twoFiveOutput,
+#targetToneOutput {
+  font-size: 1.2rem;
+  color: var(--navy);
+  font-weight: 800;
+}
+
+
+/* ========================================
+   INTERACTIVE TOOL POLISH
+======================================== */
+
+#chordResult .card {
+  min-height: auto !important;
+}
+
+#quizFeedback {
+  color: var(--navy);
+  font-weight: 800;
+}
+
+#quizScore {
+  color: var(--gold);
+  font-weight: 900;
+}
+
+.toolbar button {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  .toolbar button {
+    width: 100%;
+  }
+}
+
+/* ========================================
+   DARK MODE + MOBILE FINAL FIX
+======================================== */
+
+body.dark-mode {
+  --bg: #0b0d12;
+  --bg-soft: #141923;
+  --card: #171b26;
+  --text: #f8f6f1;
+  --muted: #b8ad9d;
+  --navy: #d8e6ff;
+  --gold: #d4a24c;
+  --border: rgba(255,255,255,.12);
+  background: #0b0d12;
+  color: var(--text);
+}
+
+body.dark-mode .card,
+body.dark-mode .lesson-section,
+body.dark-mode .info-box,
+body.dark-mode .sidebar {
+  background: var(--card);
+}
+
+.theme-toggle {
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--navy);
+  padding: .55rem .8rem;
+  border-radius: 999px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .topnav {
+    position: relative !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: .6rem !important;
+  }
+
+  .brand {
+    grid-column: 1 / -1;
+  }
+
+  .topnav a,
+  .topnav button {
+    font-size: .9rem;
+  }
+
+  .hero h2 {
+    font-size: clamp(2.4rem, 12vw, 4rem) !important;
+  }
+
+  .card {
+    min-height: auto !important;
+  }
+
+  .lesson-section {
+    padding: 1.1rem !important;
+  }
+
+  .piano {
+    overflow-x: auto;
+  }
+}
+
+/* ========================================
+   MARKDOWN CONTENT
+======================================== */
+
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--card);
+}
+
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid var(--border);
+  padding: .85rem 1rem;
+  text-align: left;
+}
+
+.markdown-content th {
+  background: rgba(0,0,0,.05);
+  color: var(--navy);
+  font-weight: 800;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4 {
+  margin-top: 2rem;
+  color: var(--navy);
+}
+
+.markdown-content p {
+  line-height: 1.9;
+}
+
+.markdown-content ul {
+  padding-left: 1.4rem;
+}
+
+.markdown-content li {
+  margin: .45rem 0;
+}
+
+.markdown-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+.markdown-content code {
+  background: rgba(0,0,0,.05);
+  padding: .15rem .45rem;
+  border-radius: 6px;
+}
+
+.markdown-content pre {
+  overflow-x: auto;
+}
+
+
+/* FORCE MARKDOWN RENDER FIX */
+.markdown-content {
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid var(--border);
+  padding: .8rem 1rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.markdown-content th {
+  background: var(--bg-soft);
+  color: var(--navy);
+  font-weight: 900;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  margin-top: 2rem;
+}
+
+.markdown-content p {
+  line-height: 1.9;
+}
+
+/* FORCE MARKDOWN RENDER FIX */
+.markdown-content {
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.markdown-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid var(--border);
+  padding: .8rem 1rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.markdown-content th {
+  background: var(--bg-soft);
+  color: var(--navy);
+  font-weight: 900;
+}
+
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  margin-top: 2rem;
+}
+
+.markdown-content p {
+  line-height: 1.9;
+}

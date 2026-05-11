@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Jazz Language Atlas is a complete jazz harmony, improvisation, rhythm, voicing, and practice knowledge platform." />
+<meta name="theme-color" content="#1f3a5f" />
+<meta property="og:title" content="Jazz Language Atlas" />
+<meta property="og:description" content="Jazz Language Atlas is a complete jazz harmony, improvisation, rhythm, voicing, and practice knowledge platform." />
+<meta property="og:type" content="website" />
+
+<meta charset="UTF-8" />
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0" />
+
+<title>
+Domain
+</title>
+
+<link
+  rel="stylesheet"
+  href="css/style.css" />
+
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+
+<nav class="topnav">
+
+  <a class="brand" href="index.html">
+    Jazz Language Atlas
+  </a>
+
+  <a href="domains.html">
+    Domains
+  </a>
+
+  <a href="search.html">
+    Search
+  </a>
+
+  <button id="themeToggle" class="theme-toggle">Dark</button>
+</nav>
+
+<main class="section app-layout">
+
+  <!-- SIDEBAR -->
+
+  <aside class="sidebar">
+
+    <h2>
+      Domains
+    </h2>
+
+    <nav id="sidebarNav"></nav>
+
+  </aside>
+
+  <!-- MAIN -->
+
+  <div class="main-content">
+
+    <header class="page-header">
+
+      <p class="eyebrow">
+        Master Domain
+      </p>
+
+      <h1 id="domainTitle"></h1>
+
+      <p
+        id="domainDescription"
+        class="lead"></p>
+
+    </header>
+
+    <section class="toolbar">
+
+      <input
+        id="topicFilter"
+        type="search"
+        placeholder="Filter topics..." />
+
+      <span id="topicCount"></span>
+
+    </section>
+
+    <section
+      id="topicGrid"
+      class="grid"></section>
+
+  </div>
+
+</main>
+
+<script
+  type="module"
+  src="js/domain-page.js"></script>
+
+<script
+  type="module">
+
+import {
+  renderSidebar
+}
+from "./js/ui/render-sidebar.js";
+
+renderSidebar();
+
+</script>
+
+<script type="module" src="js/theme-toggle.js"></script>
+</body>
+</html>

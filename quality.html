@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Jazz Language Atlas is a complete jazz harmony, improvisation, rhythm, voicing, and practice knowledge platform." />
+<meta name="theme-color" content="#1f3a5f" />
+<meta property="og:title" content="Jazz Language Atlas" />
+<meta property="og:description" content="Jazz Language Atlas is a complete jazz harmony, improvisation, rhythm, voicing, and practice knowledge platform." />
+<meta property="og:type" content="website" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Quality Dashboard | Jazz Language Atlas</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+
+<nav class="topnav">
+  <a class="brand" href="index.html">Jazz Language Atlas</a>
+  <a href="domains.html">Domains</a>
+  <a href="search.html">Search</a>
+  <a href="practice.html">Practice</a>
+  <a href="artists.html">Artists</a>
+  <a href="listening.html">Listening</a>
+  <a href="tools.html">Tools</a>
+  <a href="quality.html">Quality</a>
+  <button id="themeToggle" class="theme-toggle">Dark</button>
+</nav>
+
+<main class="section">
+
+  <header class="page-header">
+    <p class="eyebrow">Quality Control</p>
+    <h1>Content Quality Dashboard</h1>
+    <p class="lead">
+      Track placeholder lessons, topic counts, duplicate topic IDs, and content completion status.
+    </p>
+  </header>
+
+  <section class="lesson-grid">
+
+    <article class="info-box">
+      <h3>Total Topic Files</h3>
+      <p id="totalTopics">Loading...</p>
+    </article>
+
+    <article class="info-box">
+      <h3>Placeholder Files</h3>
+      <p id="placeholderCount">Run npm run qc first.</p>
+    </article>
+
+    <article class="info-box">
+      <h3>Duplicate IDs</h3>
+      <p id="duplicateCount">Run npm run qc first.</p>
+    </article>
+
+  </section>
+
+  <section class="lesson-section">
+    <h2>Domain Topic Counts</h2>
+    <div id="topicReport" class="grid"></div>
+  </section>
+
+  <section class="lesson-section">
+    <h2>Placeholder Files</h2>
+    <ul id="placeholderList"></ul>
+  </section>
+
+</main>
+
+<script type="module" src="js/quality-page.js"></script>
+
+<script type="module" src="js/theme-toggle.js"></script>
+</body>
+</html>

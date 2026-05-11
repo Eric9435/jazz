@@ -1,0 +1,137 @@
+[
+  {
+    "id": "delayed-resolution",
+    "first": "data/topics/05-voice-leading/delayed-resolution.js",
+    "duplicate": "data/topics/08-bebop-language/delayed-resolution.js"
+  },
+  {
+    "id": "call-and-response",
+    "first": "data/topics/07-improvisation/call-and-response.js",
+    "duplicate": "data/topics/09-blues-language/call-and-response.js"
+  },
+  {
+    "id": "modal-interchange",
+    "first": "data/topics/01-harmony/modal-interchange.js",
+    "duplicate": "data/topics/09-reharm/modal-interchange.js"
+  },
+  {
+    "id": "negative-harmony",
+    "first": "data/topics/06-reharmonization/negative-harmony.js",
+    "duplicate": "data/topics/10-modern/negative-harmony.js"
+  },
+  {
+    "id": "polyrhythm",
+    "first": "data/topics/08-rhythm/polyrhythm.js",
+    "duplicate": "data/topics/10-rhythm/polyrhythm.js"
+  },
+  {
+    "id": "swing-feel",
+    "first": "data/topics/08-rhythm/swing-feel.js",
+    "duplicate": "data/topics/10-rhythm/swing-feel.js"
+  },
+  {
+    "id": "block-chords",
+    "first": "data/topics/04-voicing/block-chords.js",
+    "duplicate": "data/topics/11-arranging/block-chords.js"
+  },
+  {
+    "id": "chromatic-approach-bass",
+    "first": "data/topics/14-bass/chromatic-approach-bass.js",
+    "duplicate": "data/topics/14-bass-language/chromatic-approach-bass.js"
+  },
+  {
+    "id": "walking-bass",
+    "first": "data/topics/14-bass/walking-bass.js",
+    "duplicate": "data/topics/14-bass-language/walking-bass.js"
+  },
+  {
+    "id": "rootless-voicings",
+    "first": "data/topics/04-voicing/rootless-voicings.js",
+    "duplicate": "data/topics/15-piano/rootless-voicings.js"
+  },
+  {
+    "id": "shout-chorus",
+    "first": "data/topics/12-form/shout-chorus.js",
+    "duplicate": "data/topics/16-arrangement/shout-chorus.js"
+  },
+  {
+    "id": "motivic-development",
+    "first": "data/topics/07-improvisation/motivic-development.js",
+    "duplicate": "data/topics/17-composition/motivic-development.js"
+  },
+  {
+    "id": "interval-recognition",
+    "first": "data/topics/13-ear-training/interval-recognition.js",
+    "duplicate": "data/topics/18-ear-training/interval-recognition.js"
+  },
+  {
+    "id": "blues-form",
+    "first": "data/topics/12-form/blues-form.js",
+    "duplicate": "data/topics/18-form/blues-form.js"
+  },
+  {
+    "id": "rhythm-changes",
+    "first": "data/topics/12-form/rhythm-changes.js",
+    "duplicate": "data/topics/18-form/rhythm-changes.js"
+  },
+  {
+    "id": "call-and-response",
+    "first": "data/topics/07-improvisation/call-and-response.js",
+    "duplicate": "data/topics/20-performance-language/call-and-response.js"
+  },
+  {
+    "id": "time-feel",
+    "first": "data/topics/10-rhythm/time-feel.js",
+    "duplicate": "data/topics/20-performance-language/time-feel.js"
+  },
+  {
+    "id": "block-chords",
+    "first": "data/topics/04-voicing/block-chords.js",
+    "duplicate": "data/topics/21-piano-language/block-chords.js"
+  },
+  {
+    "id": "locked-hands",
+    "first": "data/topics/04-voicing/locked-hands.js",
+    "duplicate": "data/topics/21-piano-language/locked-hands.js"
+  },
+  {
+    "id": "articulation",
+    "first": "data/topics/20-performance-language/articulation.js",
+    "duplicate": "data/topics/23-sax-horn-language/articulation.js"
+  },
+  {
+    "id": "breath-phrasing",
+    "first": "data/topics/20-horn-language/breath-phrasing.js",
+    "duplicate": "data/topics/23-sax-horn-language/breath-phrasing.js"
+  },
+  {
+    "id": "call-and-response",
+    "first": "data/topics/07-improvisation/call-and-response.js",
+    "duplicate": "data/topics/24-vocal-jazz-language/call-and-response.js"
+  },
+  {
+    "id": "free-improvisation",
+    "first": "data/topics/25-free-avant-garde/free-improvisation.js",
+    "duplicate": "data/topics/25-modern-outside-language/free-improvisation.js"
+  },
+  {
+    "id": "tonal-gravity",
+    "first": "data/topics/01-harmony/tonal-gravity.js",
+    "duplicate": "data/topics/27-music-perception/tonal-gravity.js"
+  },
+  {
+    "id": "jazz-mixing",
+    "first": "data/topics/28-audio-production/jazz-mixing.js",
+    "duplicate": "data/topics/29-audio-production/jazz-mixing.js"
+  },
+  {
+    "id": "musicxml",
+    "first": "data/topics/26-technology/musicxml.js",
+    "duplicate": "data/topics/29-technology/musicxml.js"
+  },
+  {
+    "id": "musical-conversation",
+    "first": "data/topics/28-creative-philosophy/musical-conversation.js",
+    "duplicate": "data/topics/32-creative-philosophy/musical-conversation.js"
+  }
+]

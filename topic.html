@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="description" content="Jazz Language Atlas is a complete jazz harmony, improvisation, rhythm, voicing, and practice knowledge platform." />
+<meta name="theme-color" content="#1f3a5f" />
+<meta property="og:title" content="Jazz Language Atlas" />
+<meta property="og:description" content="Jazz Language Atlas is a complete jazz harmony, improvisation, rhythm, voicing, and practice knowledge platform." />
+<meta property="og:type" content="website" />
+
+<meta charset="UTF-8" />
+
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0" />
+
+<title>
+Topic
+</title>
+
+<link
+  rel="stylesheet"
+  href="css/style.css" />
+
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+</head>
+
+<body>
+
+<nav class="topnav">
+
+  <a class="brand" href="index.html">
+    Jazz Language Atlas
+  </a>
+
+  <a href="domains.html">
+    Domains
+  </a>
+
+  <a href="search.html">
+    Search
+  </a>
+
+  <a href="practice.html">
+    Practice
+  </a>
+
+  <button id="themeToggle" class="theme-toggle">Dark</button>
+</nav>
+
+<main class="section app-layout">
+
+  <!-- SIDEBAR -->
+
+  <aside class="sidebar">
+
+    <h2>
+      Domains
+    </h2>
+
+    <nav id="sidebarNav"></nav>
+
+  </aside>
+
+  <!-- MAIN CONTENT -->
+
+  <div class="main-content">
+
+    <a
+      class="backlink"
+      href="domains.html">
+
+      ← Back
+
+    </a>
+
+    <article class="lesson">
+
+      <header class="topic-hero">
+
+        <p
+          id="topicDomain"
+          class="eyebrow"></p>
+
+        <h1
+          id="topicTitle"></h1>
+
+        <p
+          id="shortDefinition"
+          class="lead"></p>
+
+        <div
+          class="topic-meta">
+
+          <div class="topic-tag">
+            Jazz Language
+          </div>
+
+          <div class="topic-tag">
+            Harmony System
+          </div>
+
+          <div class="topic-tag">
+            Professional Topic
+          </div>
+
+        </div>
+
+      </header>
+
+      <!-- AUDIO -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Audio Example
+        </h2>
+
+        <div id="audioButtonContainer"></div>
+
+      </section>
+
+      <!-- LONG PASSAGE -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Long Passage Explanation
+        </h2>
+
+        <div id="longExplanation" class="markdown-content"></div>
+
+      </section>
+
+      <!-- INFO GRID -->
+
+      <section class="lesson-grid">
+
+        <div class="info-box">
+
+          <h3>
+            Formula
+          </h3>
+
+          <p id="formula"></p>
+
+        </div>
+
+        <div class="info-box">
+
+          <h3>
+            Sound
+          </h3>
+
+          <p id="sound"></p>
+
+        </div>
+
+        <div class="info-box">
+
+          <h3>
+            Function
+          </h3>
+
+          <p id="functionText"></p>
+
+        </div>
+
+        <div class="info-box">
+
+          <h3>
+            Voice Leading
+          </h3>
+
+          <p id="voiceLeading"></p>
+
+        </div>
+
+      </section>
+
+      <!-- EXAMPLES -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Examples
+        </h2>
+
+        <ul id="examples"></ul>
+
+      </section>
+
+      <!-- SCALE OPTIONS -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Scale Options
+        </h2>
+
+        <ul id="scaleOptions"></ul>
+
+      </section>
+
+      <!-- TARGET TONES -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Target Tones
+        </h2>
+
+        <ul id="targetTones"></ul>
+
+      </section>
+
+      <!-- PRACTICE -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Practice Ideas
+        </h2>
+
+        <ul id="practiceIdeas"></ul>
+
+      </section>
+
+      <!-- PIANO -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Piano Visualization
+        </h2>
+
+        <div id="pianoContainer"></div>
+
+      </section>
+
+      <!-- KNOWLEDGE GRAPH -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Knowledge Graph
+        </h2>
+
+        <div id="graphContainer"></div>
+
+      </section>
+
+      <!-- RELATED -->
+
+      <section class="lesson-section">
+
+        <h2>
+          Related Topics
+        </h2>
+
+        <div
+          id="relatedTopics"
+          class="related-grid"></div>
+
+      </section>
+
+    </article>
+
+  </div>
+
+</main>
+
+<script
+  type="module"
+  src="js/topic-page.js"></script>
+
+<script type="module" src="js/theme-toggle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+</html>

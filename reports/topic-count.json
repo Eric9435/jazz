@@ -1,0 +1,214 @@
+[
+  {
+    "domainFolder": "01-harmony",
+    "topicCount": 12
+  },
+  {
+    "domainFolder": "02-chord-quality",
+    "topicCount": 11
+  },
+  {
+    "domainFolder": "03-scales-modes",
+    "topicCount": 13
+  },
+  {
+    "domainFolder": "04-voicing",
+    "topicCount": 15
+  },
+  {
+    "domainFolder": "05-voice-leading",
+    "topicCount": 11
+  },
+  {
+    "domainFolder": "06-reharmonization",
+    "topicCount": 15
+  },
+  {
+    "domainFolder": "07-improvisation",
+    "topicCount": 16
+  },
+  {
+    "domainFolder": "08-bebop-language",
+    "topicCount": 13
+  },
+  {
+    "domainFolder": "08-rhythm",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "09-blues-language",
+    "topicCount": 12
+  },
+  {
+    "domainFolder": "09-reharm",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "10-modern",
+    "topicCount": 4
+  },
+  {
+    "domainFolder": "10-rhythm",
+    "topicCount": 15
+  },
+  {
+    "domainFolder": "11-arranging",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "11-melody",
+    "topicCount": 13
+  },
+  {
+    "domainFolder": "12-composition",
+    "topicCount": 0
+  },
+  {
+    "domainFolder": "12-form",
+    "topicCount": 15
+  },
+  {
+    "domainFolder": "13-comping",
+    "topicCount": 11
+  },
+  {
+    "domainFolder": "13-ear-training",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "14-bass",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "14-bass-language",
+    "topicCount": 10
+  },
+  {
+    "domainFolder": "15-drum-groove-language",
+    "topicCount": 10
+  },
+  {
+    "domainFolder": "15-piano",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "16-arrangement",
+    "topicCount": 12
+  },
+  {
+    "domainFolder": "16-drums",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "17-composition",
+    "topicCount": 13
+  },
+  {
+    "domainFolder": "18-ear-training",
+    "topicCount": 11
+  },
+  {
+    "domainFolder": "18-form",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "19-guitar",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "19-style-history",
+    "topicCount": 13
+  },
+  {
+    "domainFolder": "20-horn-language",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "20-performance-language",
+    "topicCount": 13
+  },
+  {
+    "domainFolder": "21-piano-language",
+    "topicCount": 11
+  },
+  {
+    "domainFolder": "21-vocal-jazz",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "22-guitar-language",
+    "topicCount": 9
+  },
+  {
+    "domainFolder": "22-neo-soul-gospel",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "23-fusion",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "23-sax-horn-language",
+    "topicCount": 10
+  },
+  {
+    "domainFolder": "24-latin-jazz",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "24-vocal-jazz-language",
+    "topicCount": 8
+  },
+  {
+    "domainFolder": "25-free-avant-garde",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "25-modern-outside-language",
+    "topicCount": 10
+  },
+  {
+    "domainFolder": "26-practice-systems",
+    "topicCount": 11
+  },
+  {
+    "domainFolder": "26-technology",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "27-analysis",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "27-music-perception",
+    "topicCount": 7
+  },
+  {
+    "domainFolder": "28-audio-production",
+    "topicCount": 7
+  },
+  {
+    "domainFolder": "28-creative-philosophy",
+    "topicCount": 2
+  },
+  {
+    "domainFolder": "29-audio-production",
+    "topicCount": 1
+  },
+  {
+    "domainFolder": "29-technology",
+    "topicCount": 8
+  },
+  {
+    "domainFolder": "30-analytical-systems",
+    "topicCount": 6
+  },
+  {
+    "domainFolder": "31-world-hybrid-systems",
+    "topicCount": 6
+  },
+  {
+    "domainFolder": "32-creative-philosophy",
+    "topicCount": 8
+  }
+]
