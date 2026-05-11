@@ -1,0 +1,321 @@
+2026-05-11 20:15:34.297 [warning] /home/codespace/.ssh/config: ENOENT: no such file or directory, open '/home/codespace/.ssh/config'
+2026-05-11 20:15:34.297 [info] [Activation] Extension version: 0.142.0
+2026-05-11 20:15:34.783 [info] [Authentication] Creating hub for .com
+2026-05-11 20:15:35.372 [info] [Activation] Registering built in git provider.
+2026-05-11 20:15:35.372 [info] [Activation] Looking for git repository
+2026-05-11 20:15:35.372 [info] [Activation] Found 0 repositories during activation
+2026-05-11 20:15:35.372 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-05-11 20:15:35.385 [info] [GitAPI] Registering git provider
+2026-05-11 20:15:35.418 [info] [Activation] Git initialization state changed: state=initialized
+2026-05-11 20:15:35.418 [info] [Review+0] Validate state in progress
+2026-05-11 20:15:35.418 [info] [Review+0] Validating state...
+2026-05-11 20:15:35.418 [info] [Review+1] Validate state in progress
+2026-05-11 20:15:35.418 [info] [Review+1] Validating state...
+2026-05-11 20:15:35.419 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:15:35.419 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:15:35.420 [info] [FolderRepositoryManager+1] Trying to use globalState for assignableUsers.
+2026-05-11 20:15:35.623 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:15:35.677 [info] [FolderRepositoryManager+1] Using globalState assignableUsers for 0.
+2026-05-11 20:15:35.884 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-05-11 20:15:35.884 [info] [GitPostCommitCommands] GitHub remote(s) found, registering post commit commands.
+2026-05-11 20:15:35.884 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:15:35.884 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-05-11 20:15:35.884 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:15:35.884 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-05-11 20:15:35.976 [info] [Review+1] Queuing additional validate state
+2026-05-11 20:15:35.976 [info] [Activation] Repo state for file:///workspaces/jazz/jazz-language-atlas changed.
+2026-05-11 20:15:35.976 [info] [Activation] Repo file:///workspaces/jazz/jazz-language-atlas has already been setup.
+2026-05-11 20:15:36.189 [info] [Activation] Repo state for file:///workspaces/jazz changed.
+2026-05-11 20:15:36.189 [info] [Activation] Repo file:///workspaces/jazz has already been setup.
+2026-05-11 20:15:36.438 [info] [Review+1] Validating state...
+2026-05-11 20:15:36.438 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:15:36.438 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:15:36.439 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:15:36.538 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:15:36.640 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:15:36.876 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2026-05-11 20:15:36.957 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:15:37.479 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.
+2026-05-11 20:15:37.819 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:15:37.874 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:15:37.874 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-05-11 20:15:37.874 [info] [GitPostCommitCommands] Looking for remote. Comparing 1 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:15:37.874 [info] [GitPostCommitCommands] Found a repo when getting post commit commands.
+2026-05-11 20:15:42.058 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:15:42.058 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 20:15:42.058 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:15:42.058 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 20:15:47.229 [info] [Review+1] Validate state in progress
+2026-05-11 20:15:47.229 [info] [Review+1] Validating state...
+2026-05-11 20:15:47.231 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:15:47.231 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:15:47.233 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:15:47.283 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:15:47.356 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:16:07.515 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:16:07.515 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 20:16:07.515 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:16:07.515 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 20:18:30.283 [info] [Review+1] Validate state in progress
+2026-05-11 20:18:30.283 [info] [Review+1] Validating state...
+2026-05-11 20:18:30.286 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:18:30.286 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:18:30.286 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:18:30.314 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:18:30.352 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:20:20.632 [info] [Review+1] Validate state in progress
+2026-05-11 20:20:20.632 [info] [Review+1] Validating state...
+2026-05-11 20:20:20.637 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:20:20.637 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:20:20.637 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:20:20.654 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:20:20.677 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:20:35.383 [info] [Review+0] Polling for state change...
+2026-05-11 20:20:35.383 [info] [Review+0] Validate state in progress
+2026-05-11 20:20:35.383 [info] [Review+0] Validating state...
+2026-05-11 20:20:35.393 [info] [Review+1] Polling for state change...
+2026-05-11 20:20:35.393 [info] [Review+1] Validate state in progress
+2026-05-11 20:20:35.394 [info] [Review+1] Validating state...
+2026-05-11 20:20:35.394 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:20:35.394 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:20:35.394 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:20:35.411 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:20:35.443 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:20:35.445 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:20:35.446 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 20:20:35.462 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:20:36.585 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:21:53.474 [info] [Review+1] Validate state in progress
+2026-05-11 20:21:53.474 [info] [Review+1] Validating state...
+2026-05-11 20:21:53.476 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:21:53.476 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:21:53.477 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:21:53.494 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:21:53.518 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:23:46.278 [info] [Review+1] Validate state in progress
+2026-05-11 20:23:46.278 [info] [Review+1] Validating state...
+2026-05-11 20:23:46.280 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:23:46.280 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:23:46.280 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:23:46.339 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:23:46.517 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:24:00.335 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:24:00.335 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 20:24:00.335 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:24:00.335 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 20:25:35.590 [info] [Review+1] Polling for state change...
+2026-05-11 20:25:35.590 [info] [Review+1] Validate state in progress
+2026-05-11 20:25:35.590 [info] [Review+1] Validating state...
+2026-05-11 20:25:35.590 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:25:35.590 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:25:35.590 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:25:35.604 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:25:35.636 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:25:36.687 [info] [Review+0] Polling for state change...
+2026-05-11 20:25:36.687 [info] [Review+0] Validate state in progress
+2026-05-11 20:25:36.687 [info] [Review+0] Validating state...
+2026-05-11 20:25:36.739 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:25:36.740 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 20:25:36.767 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:25:38.526 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:27:36.834 [info] [Review+1] Validate state in progress
+2026-05-11 20:27:36.834 [info] [Review+1] Validating state...
+2026-05-11 20:27:36.837 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:27:36.837 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:27:36.838 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:27:36.890 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:27:36.984 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:30:03.339 [info] [Review+1] Validate state in progress
+2026-05-11 20:30:03.339 [info] [Review+1] Validating state...
+2026-05-11 20:30:03.342 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:30:03.342 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:30:03.342 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:30:03.371 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:30:03.439 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:30:35.737 [info] [Review+1] Polling for state change...
+2026-05-11 20:30:35.737 [info] [Review+1] Validate state in progress
+2026-05-11 20:30:35.737 [info] [Review+1] Validating state...
+2026-05-11 20:30:35.737 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:30:35.737 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:30:35.737 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:30:35.758 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:30:35.810 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:30:38.622 [info] [Review+0] Polling for state change...
+2026-05-11 20:30:38.622 [info] [Review+0] Validate state in progress
+2026-05-11 20:30:38.622 [info] [Review+0] Validating state...
+2026-05-11 20:30:38.675 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:30:38.675 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 20:30:38.696 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:30:39.746 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:33:20.654 [info] [Review+1] Validate state in progress
+2026-05-11 20:33:20.654 [info] [Review+1] Validating state...
+2026-05-11 20:33:20.656 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:33:20.656 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:33:20.656 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:33:20.693 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:33:20.753 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:34:05.235 [info] [Review+1] Validate state in progress
+2026-05-11 20:34:05.235 [info] [Review+1] Validating state...
+2026-05-11 20:34:05.240 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:34:05.240 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:34:05.240 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:34:05.265 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:34:05.360 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:35:35.912 [info] [Review+1] Polling for state change...
+2026-05-11 20:35:35.912 [info] [Review+1] Validate state in progress
+2026-05-11 20:35:35.912 [info] [Review+1] Validating state...
+2026-05-11 20:35:35.912 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:35:35.912 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:35:35.912 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:35:35.935 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:35:35.977 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:35:39.845 [info] [Review+0] Polling for state change...
+2026-05-11 20:35:39.845 [info] [Review+0] Validate state in progress
+2026-05-11 20:35:39.845 [info] [Review+0] Validating state...
+2026-05-11 20:35:39.895 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:35:39.896 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 20:35:39.915 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:35:41.043 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:40:36.076 [info] [Review+1] Polling for state change...
+2026-05-11 20:40:36.076 [info] [Review+1] Validate state in progress
+2026-05-11 20:40:36.076 [info] [Review+1] Validating state...
+2026-05-11 20:40:36.077 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:40:36.077 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:40:36.077 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:40:36.094 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:40:36.135 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:40:41.141 [info] [Review+0] Polling for state change...
+2026-05-11 20:40:41.141 [info] [Review+0] Validate state in progress
+2026-05-11 20:40:41.141 [info] [Review+0] Validating state...
+2026-05-11 20:41:04.640 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:41:04.640 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 20:41:04.686 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:42:36.079 [error] [Review+1] Timeout occurred while validating state.
+2026-05-11 20:42:41.141 [error] [Review+0] Timeout occurred while validating state.
+2026-05-11 20:43:05.115 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:47:36.080 [info] [Review+1] Polling for state change...
+2026-05-11 20:47:36.080 [info] [Review+1] Validate state in progress
+2026-05-11 20:47:36.080 [info] [Review+1] Validating state...
+2026-05-11 20:47:36.080 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:47:36.080 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:47:36.081 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:47:36.094 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:47:36.131 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:47:41.143 [info] [Review+0] Polling for state change...
+2026-05-11 20:47:41.143 [info] [Review+0] Validate state in progress
+2026-05-11 20:47:41.143 [info] [Review+0] Validating state...
+2026-05-11 20:48:04.623 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:48:04.623 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 20:48:04.641 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:49:08.243 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:53:03.295 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:53:03.295 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 20:53:03.295 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 20:53:03.295 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 20:54:07.386 [info] [Review+1] Polling for state change...
+2026-05-11 20:54:07.386 [info] [Review+1] Validate state in progress
+2026-05-11 20:54:07.386 [info] [Review+1] Validating state...
+2026-05-11 20:54:07.387 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:54:07.387 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:54:07.387 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:54:07.402 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:54:07.461 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:54:08.337 [info] [Review+0] Polling for state change...
+2026-05-11 20:54:08.337 [info] [Review+0] Validate state in progress
+2026-05-11 20:54:08.337 [info] [Review+0] Validating state...
+2026-05-11 20:54:08.388 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:54:08.389 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 20:54:08.445 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:54:10.405 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:59:07.610 [info] [Review+1] Polling for state change...
+2026-05-11 20:59:07.610 [info] [Review+1] Validate state in progress
+2026-05-11 20:59:07.610 [info] [Review+1] Validating state...
+2026-05-11 20:59:07.610 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 20:59:07.610 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 20:59:07.610 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 20:59:07.626 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 20:59:07.669 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 20:59:10.505 [info] [Review+0] Polling for state change...
+2026-05-11 20:59:10.505 [info] [Review+0] Validate state in progress
+2026-05-11 20:59:10.505 [info] [Review+0] Validating state...
+2026-05-11 20:59:10.582 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 20:59:10.583 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 20:59:10.613 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 20:59:11.666 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:00:22.542 [info] [Review+1] Validate state in progress
+2026-05-11 21:00:22.542 [info] [Review+1] Validating state...
+2026-05-11 21:00:22.543 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 21:00:22.543 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 21:00:22.543 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 21:00:22.578 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 21:00:22.668 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:01:51.336 [info] [Review+1] Validate state in progress
+2026-05-11 21:01:51.336 [info] [Review+1] Validating state...
+2026-05-11 21:01:51.338 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 21:01:51.338 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 21:01:51.338 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 21:01:51.360 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 21:01:51.398 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:02:27.069 [info] [Review+1] Validate state in progress
+2026-05-11 21:02:27.069 [info] [Review+1] Validating state...
+2026-05-11 21:02:27.070 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 21:02:27.070 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 21:02:27.071 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 21:02:27.117 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 21:02:27.176 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:04:08.046 [info] [Review+1] Polling for state change...
+2026-05-11 21:04:08.046 [info] [Review+1] Validate state in progress
+2026-05-11 21:04:08.046 [info] [Review+1] Validating state...
+2026-05-11 21:04:08.046 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 21:04:08.046 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 21:04:08.047 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 21:04:08.076 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 21:04:08.100 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:04:11.762 [info] [Review+0] Polling for state change...
+2026-05-11 21:04:11.762 [info] [Review+0] Validate state in progress
+2026-05-11 21:04:11.762 [info] [Review+0] Validating state...
+2026-05-11 21:04:16.625 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 21:04:16.626 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 21:04:16.651 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 21:04:17.677 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:05:18.588 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 21:05:18.588 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 21:05:18.588 [info] [GitPostCommitCommands] Looking for remote. Comparing 0 local repo remotes with 1 GitHub repositories.
+2026-05-11 21:05:18.588 [info] [GitPostCommitCommands] Found no repos when getting post commit commands.
+2026-05-11 21:09:16.754 [info] [Review+1] Polling for state change...
+2026-05-11 21:09:16.754 [info] [Review+1] Validate state in progress
+2026-05-11 21:09:16.754 [info] [Review+1] Validating state...
+2026-05-11 21:09:16.754 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 21:09:16.754 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 21:09:16.754 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 21:09:16.766 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 21:09:16.798 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:09:17.774 [info] [Review+0] Polling for state change...
+2026-05-11 21:09:17.774 [info] [Review+0] Validate state in progress
+2026-05-11 21:09:17.774 [info] [Review+0] Validating state...
+2026-05-11 21:09:21.483 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 21:09:21.483 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 21:09:21.500 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 21:09:22.699 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:09:27.491 [info] [Review+1] Validate state in progress
+2026-05-11 21:09:27.491 [info] [Review+1] Validating state...
+2026-05-11 21:09:27.493 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 21:09:27.493 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 21:09:27.493 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 21:09:27.512 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 21:09:27.549 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:14:21.597 [info] [Review+1] Polling for state change...
+2026-05-11 21:14:21.597 [info] [Review+1] Validate state in progress
+2026-05-11 21:14:21.597 [info] [Review+1] Validating state...
+2026-05-11 21:14:21.597 [warning] No remotes found. The following remotes are missing: origin, upstream
+2026-05-11 21:14:21.597 [info] [FolderRepositoryManager+1] No GitHub remotes found for folder /workspaces/jazz/jazz-language-atlas
+2026-05-11 21:14:21.597 [info] [FolderRepositoryManager+1] Using in-memory cached assignable users.
+2026-05-11 21:14:21.610 [info] [Review+1] No matching pull request metadata found locally for current branch main
+2026-05-11 21:14:21.636 [info] [Review+1] No matching pull request metadata found on GitHub for current branch main
+2026-05-11 21:14:22.795 [info] [Review+0] Polling for state change...
+2026-05-11 21:14:22.795 [info] [Review+0] Validate state in progress
+2026-05-11 21:14:22.795 [info] [Review+0] Validating state...
+2026-05-11 21:14:22.844 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /workspaces/jazz
+2026-05-11 21:14:22.844 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-05-11 21:14:22.867 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-05-11 21:14:24.310 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main

@@ -1,0 +1,232 @@
+2026-05-11 19:17:09.518 [info] Extension host with pid 2026 started
+2026-05-11 19:17:09.554 [info] Lock '/home/codespace/.vscode-remote/data/User/workspaceStorage/-1bace543/vscode.lock': Lock acquired.
+2026-05-11 19:17:09.798 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-05-11 19:17:09.799 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-05-11 19:17:09.799 [info] ExtensionService#_doActivateExtension GitHub.codespaces, startup: false, activationEvent: 'onCommand:github.codespaces.activate'
+2026-05-11 19:17:09.800 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2026-05-11 19:17:09.800 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onCommand:markdown.showPreview'
+2026-05-11 19:17:09.801 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-05-11 19:17:12.306 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:7210)
+    at Object.33559 (/home/codespace/.vscode-remote/extensions/node_modules/axios/dist/node/axios.cjs:1513:21)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.86259 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-management/tunnelManagementHttpClient.js:12:17)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.74061 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-management/index.js:19:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.48577 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/tunnelConnectionSession.js:7:34)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.19773 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/tunnelRelayTunnelClient.js:14:35)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.73551 (/home/codespace/.vscode-remote/extensions/node_modules/@microsoft/dev-tunnels-connections/index.js:31:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.72780 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/connection/tunnelProvider.js:20:35)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.44731 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/connection/index.js:18:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.8622 (/home/codespace/.vscode-remote/extensions/codespaces-internal/dist/src/index.js:17:14)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.14086 (/home/codespace/.vscode-remote/extensions/vscode-command-framework/dist/src/vscodeIdleStatus/VscodeActivityProvider.js:4:31)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at Object.82235 (/home/codespace/.vscode-remote/extensions/vscode-command-framework/dist/src/index.js:53:32)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1554:244239
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:141965
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:142004)
+    at Module._compile (node:internal/modules/cjs/loader:1705:14)
+    at Object..js (node:internal/modules/cjs/loader:1838:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)
+    at Function.i._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:6589)
+    at Function.e._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:640:28604)
+    at Function.n._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:632:27732)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at cP._doLoadModule (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:671:1614)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-11 19:17:12.521 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:7210)
+    at Object.5886 (/home/codespace/.vscode-remote/extensions/node_modules/axios/lib/platform/common/utils.js:3:21)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1554:263837
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:141965
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:142004)
+    at Module._compile (node:internal/modules/cjs/loader:1705:14)
+    at Object..js (node:internal/modules/cjs/loader:1838:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)
+    at Function.i._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:6589)
+    at Function.e._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:640:28604)
+    at Function.n._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:632:27732)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at cP._doLoadModule (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:671:1614)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-11 19:17:12.530 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:7210)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.5886 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/endpoint/dist-src/defaults.js:3:53)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1554:263837
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:141965
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:142004)
+    at Module._compile (node:internal/modules/cjs/loader:1705:14)
+    at Object..js (node:internal/modules/cjs/loader:1838:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)
+    at Function.i._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:6589)
+    at Function.e._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:640:28604)
+    at Function.n._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:632:27732)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at cP._doLoadModule (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:671:1614)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-11 19:17:12.531 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:7210)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.5886 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/request/dist-src/index.js:7:52)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1554:263837
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:141965
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:142004)
+    at Module._compile (node:internal/modules/cjs/loader:1705:14)
+    at Object..js (node:internal/modules/cjs/loader:1838:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)
+    at Function.i._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:6589)
+    at Function.e._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:640:28604)
+    at Function.n._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:632:27732)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at cP._doLoadModule (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:671:1614)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-11 19:17:12.531 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:7210)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.5886 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/graphql/dist-web/index.js:112:52)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1554:263837
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:141965
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:142004)
+    at Module._compile (node:internal/modules/cjs/loader:1705:14)
+    at Object..js (node:internal/modules/cjs/loader:1838:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)
+    at Function.i._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:6589)
+    at Function.e._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:640:28604)
+    at Function.n._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:632:27732)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at cP._doLoadModule (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:671:1614)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-11 19:17:12.532 [error] PendingMigrationError: navigator is now a global in nodejs, please see https://aka.ms/vscode-extensions/navigator for additional info on this error.
+    at get (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:7210)
+    at getUserAgent (/home/codespace/.vscode-remote/extensions/node_modules/universal-user-agent/dist-web/index.js:2:5)
+    at Object.5886 (/home/codespace/.vscode-remote/extensions/node_modules/@octokit/core/dist-web/index.js:16:52)
+    at __webpack_require__ (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/webpack/bootstrap:19:32)
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1554:263837
+    at /home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:141965
+    at Object.<anonymous> (/home/codespace/.vscode-remote/extensions/github.codespaces-1.18.13/out/bundle/extension-node.js:1559:142004)
+    at Module._compile (node:internal/modules/cjs/loader:1705:14)
+    at Object..js (node:internal/modules/cjs/loader:1838:10)
+    at Module.load (node:internal/modules/cjs/loader:1441:32)
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1263:12)
+    at Function.i._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:6589)
+    at Function.e._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:640:28604)
+    at Function.n._load (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:632:27732)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:237:24)
+    at Module.require (node:internal/modules/cjs/loader:1463:12)
+    at require (node:internal/modules/helpers:147:16)
+    at cP._doLoadModule (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:671:1614)
+    at processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-05-11 19:17:13.122 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2026-05-11 19:17:13.123 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2026-05-11 19:17:13.688 [info] Eager extensions activated
+2026-05-11 19:17:13.689 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-05-11 19:17:13.690 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-05-11 19:17:13.690 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2026-05-11 19:17:14.449 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-05-11 19:17:14.487 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-05-11 19:19:47.875 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2026-05-11 19:19:50.828 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2026-05-11 19:22:43.502 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-05-11 19:22:48.883 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-05-11 19:22:48.884 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-05-11 19:24:47.371 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2026-05-11 20:20:22.880 [info] Extension host terminating: renderer disconnected for too long (2)
+2026-05-11 20:20:22.880 [info] Lock '/home/codespace/.vscode-remote/data/User/workspaceStorage/-1bace543/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-05-11 20:20:22.933 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:22.935 [error] Unable to refresh tree view pr:github: Canceled
+2026-05-11 20:20:22.938 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Zs (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:407:150664
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:407:150572)
+	at cP.terminate (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:505:12323)
+	at i.terminate (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at Qs (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:11700)
+	at Tf.runner (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:8536)
+	at Tf.onInterval (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:404:78825)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-05-11 20:20:22.938 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Zs (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:407:150664
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:407:150572)
+	at cP.terminate (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:505:12323)
+	at i.terminate (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at Qs (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:11700)
+	at Tf.runner (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:8536)
+	at Tf.onInterval (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:404:78825)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-05-11 20:20:22.939 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Zs (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:407:150664
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:407:150572)
+	at cP.terminate (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:505:12323)
+	at i.terminate (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at Qs (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:11700)
+	at Tf.runner (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:8536)
+	at Tf.onInterval (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:404:78825)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-05-11 20:20:22.939 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Zs (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:383:1546)
+	at file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:407:150664
+	at Array.forEach (<anonymous>)
+	at i.dispose (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:407:150572)
+	at cP.terminate (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:505:12323)
+	at i.terminate (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at Qs (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:11700)
+	at Tf.runner (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:822:8536)
+	at Tf.onInterval (file:///vscode/bin/linux-x64/41dd792b5e652393e7787322889ed5fdc58bd75b/out/vs/workbench/api/node/extensionHostProcess.js:404:78825)
+	at listOnTimeout (node:internal/timers:585:17)
+	at process.processTimers (node:internal/timers:521:7) 
+2026-05-11 20:20:22.939 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.086 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.086 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.086 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.086 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.087 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.087 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.087 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.087 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.087 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.087 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.087 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.087 [error] Unable to refresh tree view github.codespaces.performanceExplorer: Canceled
+2026-05-11 20:20:23.091 [info] Extension host with pid 2026 exiting with code 0

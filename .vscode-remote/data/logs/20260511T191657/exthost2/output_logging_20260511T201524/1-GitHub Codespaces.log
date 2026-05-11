@@ -1,0 +1,514 @@
+[Client I] GitHub Codespaces version 1.18.13
+[Client I] isRunningInWeb: "true"
+[Client V] Initializing authentication
+[API I] Successfully signed in
+[Client:extension:c94d I] initializing
+[Client:extension:c94d:resolver I] created with protocol "codespaces"
+[RemoteExplorer I] Updating codespace performance info
+[DevContainerJsonSupport I] Initializing devcontainer.json support package
+[DevContainerJsonSupport V] [2026-05-11T20:15:36.633Z] Internal initialization of dev container support package...
+
+[Client I] Connecting to current codespace: upgraded-space-memory-97qxr5q5765phprvw
+[Command:Connect I] Decorator starting: ErrorNotification
+[Command:Connect I] Decorator starting: Telemetry
+[Client I] Jupyter API registered? false
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/upgraded-space-memory-97qxr5q5765phprvw"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:c94d:resolver:resolve:1 I] resolve retry #3
+[Client:extension:c94d:resolver:resolve:1 V] Telemetry details - check 1: number of reporters: #1
+[Client:extension:c94d:resolver:resolve:1 I] resolving "codespaces+upgraded-space-memory-97qxr5q5765phprvw"
+[Client:extension:c94d:resolver:resolve:1 I] codespace: "upgraded-space-memory-97qxr5q5765phprvw", fetching details
+[Client:extension:c94d:resolver:resolve:1:fetch-codespace-info I] fetching codespace details for "upgraded-space-memory-97qxr5q5765phprvw"
+[Client:extension:c94d:resolver:resolve:1:fetch-codespace-info I] signed in, getting the details
+[Client:extension:c94d:resolver:resolve:1:fetch-codespace-info I] fetching codespace "upgraded-space-memory-97qxr5q5765phprvw" (retries left: 2)
+[API:retries-left-2 I] making GET request for "https://api.github.com/user/codespaces/upgraded-space-memory-97qxr5q5765phprvw"
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:c94d:resolver I] successfully fetched codespace details> object #0: {
+  "id": 44851234,
+  "name": "<39:<redacted>>",
+  "environment_id": "9b40976b-c3be-461f-b868-f7805443dcf7",
+  "owner": "<undefined:<redacted>>",
+  "billable_owner": {
+    "login": "Eric9435",
+    "id": 176034983,
+    "node_id": "U_kgDOCn4Upw",
+    "avatar_url": "https://avatars.githubusercontent.com/u/176034983?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Eric9435",
+    "html_url": "https://github.com/Eric9435",
+    "followers_url": "https://api.github.com/users/Eric9435/followers",
+    "following_url": "https://api.github.com/users/Eric9435/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Eric9435/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Eric9435/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Eric9435/subscriptions",
+    "organizations_url": "https://api.github.com/users/Eric9435/orgs",
+    "repos_url": "https://api.github.com/users/Eric9435/repos",
+    "events_url": "https://api.github.com/users/Eric9435/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Eric9435/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "repository": {
+    "id": 1235908913,
+    "node_id": "R_kgDOSap5MQ",
+    "name": "<4:<redacted>>",
+    "full_name": "Eric9435/jazz",
+    "private": false,
+    "owner": "<undefined:<redacted>>",
+    "html_url": "https://github.com/Eric9435/jazz",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/Eric9435/jazz",
+    "forks_url": "https://api.github.com/repos/Eric9435/jazz/forks",
+    "keys_url": "https://api.github.com/repos/Eric9435/jazz/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/Eric9435/jazz/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/Eric9435/jazz/teams",
+    "hooks_url": "https://api.github.com/repos/Eric9435/jazz/hooks",
+    "issue_events_url": "https://api.github.com/repos/Eric9435/jazz/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/Eric9435/jazz/events",
+    "assignees_url": "https://api.github.com/repos/Eric9435/jazz/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/Eric9435/jazz/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/Eric9435/jazz/tags",
+    "blobs_url": "https://api.github.com/repos/Eric9435/jazz/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/Eric9435/jazz/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/Eric9435/jazz/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/Eric9435/jazz/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/Eric9435/jazz/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/Eric9435/jazz/languages",
+    "stargazers_url": "https://api.github.com/repos/Eric9435/jazz/stargazers",
+    "contributors_url": "https://api.github.com/repos/Eric9435/jazz/contributors",
+    "subscribers_url": "https://api.github.com/repos/Eric9435/jazz/subscribers",
+    "subscription_url": "https://api.github.com/repos/Eric9435/jazz/subscription",
+    "commits_url": "https://api.github.com/repos/Eric9435/jazz/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/Eric9435/jazz/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/Eric9435/jazz/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/Eric9435/jazz/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/Eric9435/jazz/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/Eric9435/jazz/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/Eric9435/jazz/merges",
+    "archive_url": "https://api.github.com/repos/Eric9435/jazz/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/Eric9435/jazz/downloads",
+    "issues_url": "https://api.github.com/repos/Eric9435/jazz/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/Eric9435/jazz/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/Eric9435/jazz/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/Eric9435/jazz/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/Eric9435/jazz/labels{/name}",
+    "releases_url": "https://api.github.com/repos/Eric9435/jazz/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/Eric9435/jazz/deployments"
+  },
+  "machine": {
+    "name": "<14:<redacted>>",
+    "display_name": "2 cores, 8 GB RAM, 32 GB storage",
+    "operating_system": "linux",
+    "storage_in_bytes": 34359738368,
+    "memory_in_bytes": 8589934592,
+    "cpus": 2,
+    "prebuild_availability": null
+  },
+  "prebuild": null,
+  "created_at": "2026-05-12T01:46:41+06:30",
+  "updated_at": "2026-05-12T02:45:39+06:30",
+  "last_used_at": "2026-05-12T02:45:12+06:30",
+  "state": "Available",
+  "url": "https://api.github.com/user/codespaces/upgraded-space-memory-97qxr5q5765phprvw",
+  "git_status": {
+    "ahead": 0,
+    "behind": 0,
+    "has_unpushed_changes": true,
+    "has_uncommitted_changes": true,
+    "ref": "main"
+  },
+  "location": "SouthEastAsia",
+  "idle_timeout_minutes": 30,
+  "web_url": "https://upgraded-space-memory-97qxr5q5765phprvw.github.dev",
+  "machines_url": "https://api.github.com/user/codespaces/upgraded-space-memory-97qxr5q5765phprvw/machines",
+  "start_url": "https://api.github.com/user/codespaces/upgraded-space-memory-97qxr5q5765phprvw/start",
+  "stop_url": "https://api.github.com/user/codespaces/upgraded-space-memory-97qxr5q5765phprvw/stop",
+  "pulls_url": null,
+  "recent_folders": [
+    "/workspaces/jazz"
+  ],
+  "runtime_constraints": {
+    "allowed_port_privacy_settings": [
+      "private",
+      "public"
+    ]
+  },
+  "connection": {
+    "sessionPath": "/workspaces/jazz",
+    "tunnelProperties": {
+      "tunnelId": "sneaky-shoe-rkr863p",
+      "clusterId": "asse",
+      "domain": "app.github.dev",
+      "connectAccessToken": "<389:<redacted>>",
+      "managePortsAccessToken": "<396:<redacted>>",
+      "serviceUri": "https://global.rel.tunnels.api.visualstudio.com/"
+    }
+  },
+  "container_id": "ca594eaf5e5d277a28a2bf2a7420dcf97833ad3f3afb23a814e3d4a5bb69693a",
+  "display_name": "upgraded space memory",
+  "devcontainer_path": null,
+  "pending_operation": false,
+  "feature_flags": {
+    "developer": false,
+    "detailedActivityMonitor": false,
+    "vscodeAccountSwitching": true,
+    "enableSmbDiagnosticContinuousMonitoring": false,
+    "enableSmbDiagnosticOnAnomalyMonitoring": false,
+    "useEarlyWorkbenchWebClient": true,
+    "useCoiWebClient": false,
+    "remapUserNamespace": false,
+    "removeConnectRetriesWebClient": true,
+    "storageV2ExhaustiveValidation": false,
+    "forcePushShutdownTelemetry": true,
+    "useNewJupyterApi": true,
+    "improvedWarmupContainerReuse": true,
+    "storageV2ComprehensiveDiagnosticsCollection": false,
+    "usingCopilotWorkspaceConfig": false,
+    "copilotWorkspace": false,
+    "hostnameSpecificGitCredentialHelper": true,
+    "storageV2ForcedFlushes": false,
+    "storageV2AdvancedFsLogs": false,
+    "storageV2DisableIoUring": false,
+    "storageV2DisableCifsPrefetch": true,
+    "environmentChangesMonitorStopsWatcher": true,
+    "storageV2AggressivePrefetch": false,
+    "storageV2ExtremePrefetch": false,
+    "Basis": true,
+    "Skuheapscaling": true,
+    "CacheIde": true,
+    "Developer": false,
+    "Eap": false
+  },
+  "retention_period_minutes": 43200,
+  "retention_expires_at": null,
+  "template": null,
+  "publish_url": null
+}
+[RemoteExplorer I] Updating codespace performance info
+[Client:extension:c94d:resolver:resolve:1:check-codespace-state I] codespace upgraded-space-memory-97qxr5q5765phprvw (id: 9b40976b-c3be-461f-b868-f7805443dcf7) is in the "Default" state
+[Client:extension:c94d:resolver:resolve:1:check-codespace-state I] noop
+[Client:extension:c94d:resolver I] Initializing RPC client
+[Client:extension:c94d:resolver I] Running in web, using unix socket for communication
+[Client:extension:c94d:resolver I] Initializing Node-based codespace host service client
+[Client:extension:c94d:resolver I] Initializing Node-based VS Code server host service client
+[Client:extension:c94d:resolver I] Initializing Node-based Jupyter server host service client
+[Client:extension:c94d:resolver:resolve:1:check-codespace-state I] vscode connection options: > object #0: {
+  "environmentId": "9b40976b-c3be-461f-b868-f7805443dcf7",
+  "vsCodeCommit": "41dd792b5e652393e7787322889ed5fdc58bd75b",
+  "vsCodeQuality": "stable",
+  "extensions": [
+    "GitHub.codespaces",
+    "GitHub.vscode-pull-request-github",
+    "Github.copilot"
+  ],
+  "telemetry": true
+}
+[RemoteExplorer I] Updating codespace details
+[Client:extension:c94d:resolver I] Executed start-remote-server using gRPC
+[Client:extension:c94d:resolver:resolve:1 I] vscode server remote port: "35897", local port: "undefined"}
+[Client V] connect duration: 4392 ms
+[Client:extension:c94d:resolver:resolve:1 I] Progress: Done
+[Client:extension:c94d:resolver I] Subscribed to event stream
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] launching background configuration tasks
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] Running in web, starting post attach command listener without disposable
+[Client:extension:c94d:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: addEnvironmentConfiguredEventCallback()
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] no max idle timeout notice
+[Client:extension:c94d:resolver:resolve:1:background-tasks V] checking correctness of the codespace session path> object #0: [
+  {
+    "uri": {
+      "$mid": 1,
+      "fsPath": "/workspaces/jazz",
+      "external": "file:///workspaces/jazz",
+      "path": "/workspaces/jazz",
+      "scheme": "file"
+    },
+    "name": "<4:<redacted>>",
+    "index": 0
+  }
+]
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] Running in web, starting dev container change event listener without disposable
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] Running in web, starting secrets updated event listener without disposable
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] Running in web, starting codespace stopping event listener without disposable
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] starting activity monitor, isRunningInWeb: "true"
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] isRunningInWeb: true
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] starting activity monitor
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] Running in web, starting user notification event listener without disposable
+[Client:extension:c94d:resolver:resolve:1 V] Telemetry details - check 2: number of reporters: #1
+[Client:extension:c94d:resolver:resolve:1:background-tasks:openDefaultFiles I] Skipping openFiles because it's not the first activation
+[Command:Connect I] Command [Connect to Codespace]: Connect to Codespace Success (5818ms)
+[Command:Connect I] Decorator finishing: Telemetry. Duration: 3ms (1 + 2)
+[Command:Connect I] Decorator finishing: ErrorNotification. Duration: 1ms (1 + 0)
+[Client:extension:c94d:resolver I] Received event: Subscribed
+[Client:extension:c94d:resolver I] Client 236020e5-e385-4a25-9d02-ae26923495e3 subscribed to event stream
+[Client:extension:c94d:resolver I] Received event: CreationLogUpdated
+[Client:extension:c94d:resolver I] Event payload: {"text":"Finding image...","type":"inProgress","isStreamingLogs":false}
+[Client:extension:c94d:resolver I] Received event: CreationLogUpdated
+[Client:extension:c94d:resolver I] Event payload: {"text":"Image found.","type":"succeeded","isStreamingLogs":false}
+[Client:extension:c94d:resolver I] Received event: CreationLogUpdated
+[Client:extension:c94d:resolver I] Event payload: {"text":"Building container...","type":"inProgress","isStreamingLogs":true}
+[Client:extension:c94d:resolver I] Received event: CreationLogUpdated
+[Client:extension:c94d:resolver I] Event payload: {"text":"Container built.","type":"succeeded","isStreamingLogs":false}
+[Client:extension:c94d:resolver I] Received event: EnvironmentConfigured
+[Client:extension:c94d:resolver:resolve:1:background-tasks:post-attach-command-manager I] PostAttachCommandManager: handleEnvironmentConfiguredEvent()
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] Executed configure-environment using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] Executed get-container-persisted-folder using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[Client:extension:c94d:resolver:resolve:1:background-tasks V] shared folder path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[Client:extension:c94d:resolver:resolve:1:background-tasks V] shared file path: "/workspaces/.codespaces/shared/postCreateOutput.json"
+[ResourceUsage I] Executed get-container-persisted-folder using gRPC
+[ResourceUsage V] container folder path: "/workspaces/.codespaces/.persistedshare"
+[ResourceUsage V] shared folder path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage V] shared file path: "/workspaces/.codespaces/shared/resource-usage.json"
+[ResourceUsage I] Starting monitor
+[ResourceUsage I] Checking if the codespace connection exists
+[ResourceUsage I] Running in web, starting monitor without disposable
+[Client:extension:c94d:resolver:resolve:1:background-tasks I] Executed is-recovery-container using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks V] not in recovery container
+[Performance I] Executed get-container-persisted-folder using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Starting monitor
+[Performance I] Checking if the codespace connection exists
+[Performance I] Running in web, starting monitor without disposable
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Performance I] Executed get-performance-data using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider V] sending activity heartbeat
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Executed notify-codespace-of-client-activity using gRPC
+[Client:extension:c94d:resolver:resolve:1:background-tasks:activity-monitor:vscode-activity-provider I] Activity signal sent with result true

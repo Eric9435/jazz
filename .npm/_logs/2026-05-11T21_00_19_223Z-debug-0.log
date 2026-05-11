@@ -1,0 +1,30 @@
+0 verbose cli /usr/local/share/nvm/versions/node/v24.14.0/bin/node /home/codespace/nvm/current/bin/npm
+1 info using npm@11.9.0
+2 info using node@v24.14.0
+3 silly config load:file:/usr/local/share/nvm/versions/node/v24.14.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/workspaces/jazz/jazz-language-atlas/.npmrc
+5 silly config load:file:/home/codespace/.npmrc
+6 silly config load:file:/usr/local/share/nvm/versions/node/v24.14.0/etc/npmrc
+7 verbose title npm install marked
+8 verbose argv "install" "marked"
+9 verbose logfile logs-max:10 dir:/home/codespace/.npm/_logs/2026-05-11T21_00_19_223Z-
+10 verbose logfile /home/codespace/.npm/_logs/2026-05-11T21_00_19_223Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2348810240 maxSize:587202560 maxEntrySize:293601280
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest marked@^18.0.3
+16 silly packumentCache full:https://registry.npmjs.org/marked cache-miss
+17 http cache https://registry.npmjs.org/marked 21ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/marked set size:740604 disposed:false
+19 silly placeDep ROOT marked@18.0.3 REPLACE for: jazz-language-atlas@1.0.0 want: ^18.0.3
+20 silly reify moves {}
+21 silly audit bulk request { marked: [ '18.0.3' ] }
+22 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 216ms
+23 silly audit report {}
+24 verbose cwd /workspaces/jazz/jazz-language-atlas
+25 verbose os Linux 6.8.0-1044-azure
+26 verbose node v24.14.0
+27 verbose npm  v11.9.0
+28 verbose exit 0
+29 info ok
