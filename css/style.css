@@ -1739,3 +1739,22 @@ body.dark-mode .sidebar {
   }
 }
 
+
+/* ========================================
+   GLOBAL FOOTER
+======================================== */
+
+.footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-top: 4rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: .95rem;
+  line-height: 1.8;
+}
+
+.footer strong {
+  color: var(--navy);
+}
+
