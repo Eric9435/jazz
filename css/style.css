@@ -1777,3 +1777,24 @@ body.dark-mode .sidebar {
   color: var(--navy);
 }
 
+
+/* ========================================
+   CLICKABLE CARDS
+======================================== */
+
+.card[data-href] {
+  cursor: pointer;
+  transition:
+    transform .18s ease,
+    box-shadow .18s ease,
+    border-color .18s ease;
+}
+
+.card[data-href]:hover {
+  transform: translateY(-4px);
+}
+
+.card[data-href]:active {
+  transform: scale(.985);
+}
+
