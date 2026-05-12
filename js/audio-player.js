@@ -1,14 +1,14 @@
 
-const audio = new Audio("assets/audio/jazz.mp3");
+const audio = new Audio("./assets/audio/jazz.mp3");
 
 audio.loop = true;
-audio.volume = 0.35;
+audio.volume = 0.4;
 
 const button = document.createElement("button");
 
-button.innerText = "♫ Jazz";
-
 button.className = "music-toggle";
+
+button.innerHTML = "♫ Jazz";
 
 document.body.appendChild(button);
 
@@ -16,21 +16,31 @@ let playing = false;
 
 button.addEventListener("click", async () => {
 
-  if (!playing) {
+  try {
 
-    await audio.play();
+    if (!playing) {
 
-    button.innerText = "❚❚ Pause";
+      await audio.play();
 
-    playing = true;
+      button.innerHTML = "❚❚ Pause";
 
-  } else {
+      playing = true;
 
-    audio.pause();
+    } else {
 
-    button.innerText = "♫ Jazz";
+      audio.pause();
 
-    playing = false;
+      button.innerHTML = "♫ Jazz";
+
+      playing = false;
+
+    }
+
+  } catch (err) {
+
+    console.error(err);
+
+    alert("Audio failed to load.");
 
   }
 
