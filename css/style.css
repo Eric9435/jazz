@@ -2191,3 +2191,19 @@ main.section .grid {
   }
 }
 
+
+/* ========================================
+   TRANSPARENT HERO IMAGE
+======================================== */
+
+.hero-image {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+}
+
+.hero-image-wrap {
+  background: transparent !important;
+}
+
