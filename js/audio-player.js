@@ -1,37 +1,38 @@
 
-const audio = new Audio("/assets/audio/jazz.mp3");
+let audio = new Audio("/assets/audio/jazz.mp3");
 
 audio.loop = true;
 audio.volume = 0.4;
 
 /* ========================================
-   RESTORE TIME
+   RESTORE POSITION
 ======================================== */
 
-const savedTime = localStorage.getItem("jazz-current-time");
+const savedTime = localStorage.getItem("jazz-time");
 
 if (savedTime) {
-  audio.currentTime = parseFloat(savedTime);
+  audio.currentTime = Number(savedTime);
 }
 
 /* ========================================
    RESTORE PLAY STATE
 ======================================== */
 
-const wasPlaying = localStorage.getItem("jazz-playing") === "true";
+const shouldPlay =
+  localStorage.getItem("jazz-playing") === "true";
 
 /* ========================================
    SAVE TIME
 ======================================== */
 
-setInterval(() => {
+audio.addEventListener("timeupdate", () => {
 
   localStorage.setItem(
-    "jazz-current-time",
+    "jazz-time",
     audio.currentTime
   );
 
-}, 1000);
+});
 
 /* ========================================
    BUTTON
@@ -41,21 +42,33 @@ const button = document.createElement("button");
 
 button.className = "music-toggle";
 
-button.innerHTML = wasPlaying
+button.innerHTML = shouldPlay
   ? "❚❚ Pause"
   : "♫ Jazz";
 
 document.body.appendChild(button);
 
 /* ========================================
-   AUTORESTORE PLAY
+   AUTOPLAY RESTORE
 ======================================== */
 
-if (wasPlaying) {
+window.addEventListener("load", async () => {
 
-  audio.play().catch(() => {});
+  if (shouldPlay) {
 
-}
+    try {
+
+      await audio.play();
+
+    } catch (e) {
+
+      console.log(e);
+
+    }
+
+  }
+
+});
 
 /* ========================================
    TOGGLE
@@ -63,35 +76,27 @@ if (wasPlaying) {
 
 button.addEventListener("click", async () => {
 
-  try {
+  if (audio.paused) {
 
-    if (audio.paused) {
+    await audio.play();
 
-      await audio.play();
+    localStorage.setItem(
+      "jazz-playing",
+      "true"
+    );
 
-      localStorage.setItem(
-        "jazz-playing",
-        "true"
-      );
+    button.innerHTML = "❚❚ Pause";
 
-      button.innerHTML = "❚❚ Pause";
+  } else {
 
-    } else {
+    audio.pause();
 
-      audio.pause();
+    localStorage.setItem(
+      "jazz-playing",
+      "false"
+    );
 
-      localStorage.setItem(
-        "jazz-playing",
-        "false"
-      );
-
-      button.innerHTML = "♫ Jazz";
-
-    }
-
-  } catch (err) {
-
-    console.error(err);
+    button.innerHTML = "♫ Jazz";
 
   }
 
